@@ -1,5 +1,5 @@
 function returnJsonToText() {
-    return fetch('./Games.json')
+    return fetch('./games.json')
         .then(response => response.json())
         .then(data => {
             const jsonString = JSON.stringify(data, null, 2);
