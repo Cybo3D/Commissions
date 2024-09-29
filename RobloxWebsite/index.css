@@ -96,6 +96,11 @@ h4 {
     height: 5vh;
     width: 5vh;
 }
+.IconSmall{
+    color: green;
+    height: 2.5vh;
+    width: 2.5vh;
+}
 .Banner{
     width: 100vw;
     height: 100vh;
