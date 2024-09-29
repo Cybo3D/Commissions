@@ -1,7 +1,13 @@
 {
     "Text":{
+        "WebName": "Copyrights",
+        "Name": "Copyrights",
         "Title": "Making Games for money",
-        "Description": "i love making games for money but i cant buy a car because im doing it without paying taxes, also i was threatened to be mistreaded so now im sad"
+        "Description": "i love making games for money but i cant buy a car because im doing it without paying taxes, also i was threatened to be mistreaded so now im sad",
+        "Copyright": "© 2024 Copyrights. All Rights Reserved.",
+        "Twitter": "https://Twitter.com",
+        "Discord": "https://Discord.com",
+        "Roblox": "https://roblox.com"
     },
     "Game1": {
         "GameID": "2753915549",

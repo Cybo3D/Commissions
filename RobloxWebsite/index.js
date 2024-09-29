@@ -75,8 +75,16 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("Visits").innerHTML = TotalVisits + " +";
 
             // Set title and description
+            document.title = obj["Text"].WebName;
+            document.getElementById("name").innerHTML = obj["Text"].Name;
             document.getElementById("title").innerHTML = obj["Text"].Title;
             document.getElementById("description").innerHTML = obj["Text"].Description;
+            document.getElementById("copyright").innerHTML = obj["Text"].Copyright;
+
+            // Set links
+            document.getElementById("Twitter").href = obj["Text"].Twitter;
+            document.getElementById("Discord").href = obj["Text"].Discord;
+            document.getElementById("Roblox").href = obj["Text"].Roblox;
         });
     });
 });
