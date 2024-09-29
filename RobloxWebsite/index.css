@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    
+}
+a{
+    text-decoration: none;
+}
+a img{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1); 
+}
+a img:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+html, body {
+    height: 100%;
+}
+h1 {
+    color: white;
+    font-family: 'helvetica', sans-serif;
+    font-weight: bolder;
+    font-size: 6vh;
+}
+
+h2 {
+    color: white;
+    font-family: 'helvetica', sans-serif;
+    font-weight: bolder;
+    font-size: 2vh;
+}
+h3 {
+    color: white;
+    font-family: 'helvetica', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5vh;
+}
+h4 {
+    color: white;
+    font-family: 'helvetica', sans-serif;
+    font-weight: bolder;
+    font-size: 1vh;
+}
+.link{
+    color: white;
+    text-decoration: underline;
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Contentm, .Banner, .StatsContainer{
+    display: flex; /* Flexbox to center content */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+}
+
+.TopBar {
+    display: flex; /* Flexbox to center content */
+    align-items: center; /* Centers vertically */
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 7.5vh;
+    z-index: 2;
+}
+
+.Content {
+    flex: 1;
+    background-color: black; /* Background to clearly define the content area */
+    z-index: 1;
+}
+
+.BottomBar {
+    display: flex;
+    flex-direction: column; /* Stack the h3 elements vertically */
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    background-color: black;
+    width: 100vw;
+    height: 7.5vh;
+}
+.Logo{
+    margin: 10%;
+}
+.Socials{
+    position:absolute;
+    right:0px;
+    margin: 10%;
+}
+.Icon{
+    color: white;
+    height: 5vh;
+    width: 5vh;
+}
+.Banner{
+    width: 100vw;
+    height: 100vh;
+}
+.Text{
+    width: 66vh;
+    height: 25vh;
+}
+.BannerImg{
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:-1;
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+    filter: brightness(50%);
+    mask-image: linear-gradient(#000, rgba(0, 0, 0, 1), rgba(0,0,0,0));
+}
+.StatsContainer {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center; /* Center the items vertically */
+    width: 100vw;
+}
+
+.Stats {
+    display: flex; /* Flexbox to center the content */
+    flex-direction: column; /* Align content vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin: 1%; /* Ensure there's some space between stats */
+}
+
+.GamesContainer {
+    display: flex; /* Flexbox to center the content */
+    flex-direction: column; /* Align content vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin: 1%; /* Ensure there's some space between stats */
+}
+.Games{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+@media only screen and (max-width: 1000px) {
+    .Games{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (max-width: 750px) {
+    .Games{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Games{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.Game{
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+.GameBanner{
+    width: 25vh;
+    width: 25vh;
+    border-radius: 2vh;
+}
+.GameStats{
+    display: flex;
+    align-items: center; /* Center the items vertically */
+}
+.Number{
+    font-size: 1.8vh;
+    margin: .5vh;
+}
+.Invisible{
+    display:none;
+}

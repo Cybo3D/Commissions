@@ -1,0 +1,21 @@
+{
+    "Text":{
+        "Title": "Making Games for money",
+        "Description": "i love making games for money but i cant buy a car because im doing it without paying taxes, also i was threatened to be mistreaded so now im sad"
+    },
+    "Game1": {
+        "GameID": "2753915549",
+        "UniverseID": "994732206",
+        "Banner": "https://tr.rbxcdn.com/0ec932dfa7a48e4b98508b15411372d4/768/432/Image/Webp"
+    },
+    "Game2": {
+        "GameID": "16870711347",
+        "UniverseID": "5796473813",
+        "Banner": "https://tr.rbxcdn.com/0763119b5069c789167a31b70121517a/768/432/Image/Webp"
+    },
+    "Game3": {
+        "GameID": "13127800756",
+        "UniverseID": "4582358979",
+        "Banner": "https://tr.rbxcdn.com/e979edf7d2e0bbb20ce20f690c232f99/768/432/Image/Webp"
+    }
+}
