@@ -142,29 +142,35 @@ h4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
     .Games{
         grid-template-columns: repeat(3, 1fr);
     }
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 900px) {
     .Games{
         grid-template-columns: repeat(2, 1fr);
     }
+    .Text{
+        width: 50vh;
+        height: 25vh;
+    }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .Games{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .Text{
+        width: 35vh;
+        height: 25vh;
     }
 }
 .Game{
     margin-left: 2vh;
     margin-right: 2vh;
     margin-top: 2vh;
-    margin-bottom: 2vh;
 }
 .GameBanner{
-    width: 25vh;
     width: 25vh;
     border-radius: 2vh;
 }
@@ -178,4 +184,9 @@ h4 {
 }
 .Invisible{
     display:none;
+}
+.GameName{
+    width: 25vh;
+    height: 3vh;
+    font-size: 1.5vh;
 }
