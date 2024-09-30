@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    box-sizing: border-box;
 }
 a{
     text-decoration: none;
@@ -54,14 +54,14 @@ h4 {
 }
 
 .Contentm, .Banner, .StatsContainer{
-    display: flex; /* Flexbox to center content */
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
 }
 
 .TopBar {
-    display: flex; /* Flexbox to center content */
-    align-items: center; /* Centers vertically */
+    display: flex;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.9);
     width: 100vw;
     height: 7.5vh;
@@ -70,15 +70,15 @@ h4 {
 
 .Content {
     flex: 1;
-    background-color: black; /* Background to clearly define the content area */
+    background-color: black;
     z-index: 1;
 }
 
 .BottomBar {
     display: flex;
-    flex-direction: column; /* Stack the h3 elements vertically */
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
     background-color: black;
     width: 100vw;
     height: 7.5vh;
@@ -123,24 +123,24 @@ h4 {
     margin-top: 2%;
     margin-bottom: 1%;
     display: flex;
-    align-items: center; /* Center the items vertically */
+    align-items: center;
     width: 100vw;
 }
 
 .Stats {
-    display: flex; /* Flexbox to center the content */
-    flex-direction: column; /* Align content vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    margin: 1%; /* Ensure there's some space between stats */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 1%;
 }
 
 .GamesContainer {
-    display: flex; /* Flexbox to center the content */
-    flex-direction: column; /* Align content vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    margin: 1%; /* Ensure there's some space between stats */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    margin: 1%;
 }
 .Games{
     display: grid;
@@ -180,7 +180,7 @@ h4 {
 }
 .GameStats{
     display: flex;
-    align-items: center; /* Center the items vertically */
+    align-items: center;
 }
 .Number{
     font-size: 1.8vh;

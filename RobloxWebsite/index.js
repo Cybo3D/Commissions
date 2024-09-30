@@ -82,7 +82,6 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("copyright").innerHTML = obj["Text"].Copyright;
 
             // Set links
-            document.getElementById("Twitter").href = obj["Text"].Twitter;
             document.getElementById("Discord").href = obj["Text"].Discord;
             document.getElementById("Roblox").href = obj["Text"].Roblox;
         });
