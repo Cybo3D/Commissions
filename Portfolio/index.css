@@ -1,87 +1,35 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
 }
-a{
-    text-decoration: none;
+body {
+    background-color: #181C14;
 }
-a img{
-    transition: transform 0.2s ease-in-out;
-    transform: scale(1); 
-}
-a img:hover{
-    transition: transform 0.2s ease-in-out;
-    transform: scale(1.1);
-}
-html, body {
-    height: 100%;
-    background-color: black;
-}
-h1 {
-    color: white;
-    font-family: 'helvetica', sans-serif;
-    font-weight: bolder;
-    font-size: 6vh;
-}
-
-h2 {
-    color: white;
-    font-family: 'helvetica', sans-serif;
-    font-weight: bolder;
-    font-size: 2vh;
-}
-h3 {
-    color: white;
-    font-family: 'helvetica', sans-serif;
-    font-weight: bolder;
-    font-size: 1.5vh;
-}
-h4 {
-    color: white;
-    font-family: 'helvetica', sans-serif;
-    font-weight: bolder;
-    font-size: 1vh;
-}
-.Container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+h1, h2, h3, h4, h5, h6 {
+    color: #ECDFCC;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
 }
 .TopBar {
+    background-color: #3C3D37;
+    height: 5vh;
     display: flex;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.9);
-    width: 100vw;
-    height: 7.5vh;
-    z-index: 2;
 }
-
-.Content {
-    flex: 1;
-    background-color: black;
-    z-index: 1;
-}
-
 .BottomBar {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    background-color: black;
-    width: 100vw;
-    height: 7.5vh;
-}
-.Logo{
-    margin: 10%;
-}
-.Socials{
-    position:absolute;
-    right:0px;
-    margin: 10%;
-}
-.Icon{
-    color: white;
+    background-color: #3C3D37;
+    position: absolute;
     height: 5vh;
-    width: 5vh;
+    width: 100vw;
+    bottom: 0px;
+}
+.Logo {
+    display: flex;
+    align-items: center;
+}
+.LogoIcon {
+    height: 100%;
+    max-height: 5vh; /* Ensure the image does not exceed the height of the TopBar */
+    width: auto;
+    margin-right: 10px; /* Add some space between the logo and the text */
+    image-rendering: pixelated; /* Nearest-neighbor scaling */
+    filter: sepia(50%) saturate(773%) hue-rotate(307deg) brightness(96%) contrast(93%);
 }
