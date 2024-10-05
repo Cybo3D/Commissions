@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a img{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1); 
+}
+a img:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+html, body {
+    height: 100%;
+    background-color: black;
+}
+h1 {
+    color: white;
+    font-family: 'helvetica', sans-serif;
+    font-weight: bolder;
+    font-size: 6vh;
+}
+
+h2 {
+    color: white;
+    font-family: 'helvetica', sans-serif;
+    font-weight: bolder;
+    font-size: 2vh;
+}
+h3 {
+    color: white;
+    font-family: 'helvetica', sans-serif;
+    font-weight: bolder;
+    font-size: 1.5vh;
+}
+h4 {
+    color: white;
+    font-family: 'helvetica', sans-serif;
+    font-weight: bolder;
+    font-size: 1vh;
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.TopBar {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100vw;
+    height: 7.5vh;
+    z-index: 2;
+}
+
+.Content {
+    flex: 1;
+    background-color: black;
+    z-index: 1;
+}
+
+.BottomBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+    width: 100vw;
+    height: 7.5vh;
+}
+.Logo{
+    margin: 10%;
+}
+.Socials{
+    position:absolute;
+    right:0px;
+    margin: 10%;
+}
+.Icon{
+    color: white;
+    height: 5vh;
+    width: 5vh;
+}
